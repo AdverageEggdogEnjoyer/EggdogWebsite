@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Egg Gallery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <nav id ="navcolor" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand modak-regular navbar-dark" href="#">EGGDOG ENJOYERS</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="merch.html">Merch</a></li>
+                    <li><a href="pettheegg.html">Pet The Egg</a></li>
+                </ul>
+            </div>
+        </nav>
+            <script>
+                function bounceImage() {
+                    const image = document.getElementById("bounceImage");
+                    
+                    // Remove the class if it already exists to restart the animation
+                    image.classList.remove("bounce-on-click");
+                    
+                    // Trigger reflow to restart the animation (browser hack)
+                    void image.offsetWidth;
+                
+                    // Add the bounce class to start the animation
+                    image.classList.add("bounce-on-click");
+                }
+                </script>
+        <h1>Pet Eggdog</h1>
+        <img class="petegg" src="https://i.pinimg.com/originals/ee/62/cf/ee62cf9a4571eace4f7cad0e2d19f056.png" class="img-fluid" id="bounceImage" onclick="bounceImage()" alt="Bouncing Image">
+    </body>
+</html>

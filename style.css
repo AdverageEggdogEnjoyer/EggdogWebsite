@@ -1,0 +1,95 @@
+.boba {
+    width:100%;
+    height:100%;
+}
+#navcolor{
+    background-color:#F9B5AC;
+}
+.container-fluid{
+    color:white;
+}
+.navbar-brand{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-size:50px;    
+}
+body{
+    background-image:url("https://i.ytimg.com/vi/g0WmiI2QUw0/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgWyhcMA8=&rs=AOn4CLAa8NO9fys5iQO7yxGGtMEaB4JUGQ");
+    width:100%;
+    height:100%;
+    background-size:cover;
+}
+h1{
+    font-family: "Modak", system-ui;
+    text-align:center;
+    color:white;
+    font-size:100px;
+    text-shadow: -1px 9px 0px rgba(0,0,0,1);
+}
+.frien{
+    width:400px;
+    height:400px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: "Modak", system-ui;
+    text-align:center;
+    color:#333;
+    font-size:30px;
+    
+}
+.jumbotron{
+    background-color:#F9B5AC;
+}
+.tenor-gif-embed{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    display: inline-block;
+    text-align:center;
+    gap: px;
+}
+.petegg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display:block;
+    text-align:center;
+
+}
+@keyframes bounce {
+    100% , 80%, 50%, 30% , 0% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.bounce-on-click {
+    animation: bounce 0.6s; /* adjust duration if needed */
+}
+button{
+    text-align:center;
+}
+
+.a{
+    text-align:center;
+}
